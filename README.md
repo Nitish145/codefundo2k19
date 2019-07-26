@@ -2,7 +2,7 @@
 
 ## Our Solution
 
-We aim at identifying the best suited probable points for setting up a secure electronic voting system. Our model would be secure enough so that no one should be able to know whom the voter voted for. The voter would be kept anonymous. Also, Smart contracts would be there for keeping voting data confidential.
+We aim at identifying the best suited probable points for setting up a secure electronic voting system. Our model would be secure enough so that no one would be able to know whom the voter voted for. Also, Smart contracts can be deployed for keeping voting data confidential.
 
 The following would be the integral parts of our e-voting system:
 
