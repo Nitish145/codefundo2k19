@@ -2,39 +2,39 @@
 
 ## Our Solution
 
-We aim at identifying the best suited probable points for setting up a secure electronic voting system. Our model would be secure enough so that no one would be able to know whom the voter voted for. Also, Smart contracts can be deployed for keeping voting data confidential.
+We aim at identifying the best suited probable points for setting up a secure electronic voting system. Our model would be enforcing the key principles of **reliability** , **transparency** , **accuracy**. Also, Smart contracts can be deployed in lieu of Trusted Third Party (TTP) to felicitate conflict-free e-voting avoiding the services of middle man.
 
 The following would be the integral parts of our e-voting system:
 
-   A. Watchdog organization
+   A. **Watchdog organization**
 
    - Holds voter information and should determine voter validity.
    - Should not expose voter information to any other party.
 
 
-   B. Smart Contracts
+   B. **Smart Contracts**
 
+   - Distributed and immutable.
    - Validate voters at the time of voting.
    - Acts as an agent between the watchdog organization and the voters.
    - The anonymity of voter information to prevent potential manipulation of votes.
-   - Distributed and immutable.
+   
 
+   C. **Azure Blockchain**
 
-   C. Azure Blockchain
-
-   - Each vote is conceptually equivalent to the asset in blockchain and transaction happens between voter and candidate.
+   - Each vote is conceptually equivalent to the asset in blockchain and transaction occurs between a voter and a contestant.
    - Restrict asset to a process maximum of one transaction to potentially prevent multiple votes to the same candidate or voting for multiple contenders.
 
 
 ### Tasks
  
-   A. Before Voting  
+   A. Before Voting
  
-   - The registration of the voters and contestants is done with the watchdog organization.
+   - The registration of the voters and contestants with the watchdog organization.
    - The voters will be identified with the unique identification number (UIN) assigned by the watchdog organization after registration.
    - UIN would be used throughout the process to potentially prevent multiple voting. 
    - The contestants would file their nomination with their voter id.
-   -  A public address would be generated and stored against each of the candidates.
+   - A public address would be generated and stored against each of the candidates.
 
    B. During Voting 
 
@@ -45,7 +45,7 @@ The following would be the integral parts of our e-voting system:
 
    C. After Voting 
 
-   - The vote/asset pertaining to a reference number could be changed before the deadline.
-   - After the deadline, Microsoft power BI could be used to prepare the detailed results be it party-wise or constituency-wise.
+   - The vote/asset pertaining to a reference number could be changed by the voter before the deadline.
+   - After the deadline, Microsoft power BI may be used to prepare the detailed results of the election.
 
-
+**Our solution explores the potential of the blockchain technology and its usefulness in the e-voting scheme effectuating a more transparent democracy.**
